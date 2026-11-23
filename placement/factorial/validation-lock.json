@@ -1,0 +1,87 @@
+{
+  "hashes": {
+    "placement/factorial/run.py": "c1b03261091c7621303ae461789e26bea868f048bdfa4b46338928fafe664bf6",
+    "placement/factorial/PROTOCOL.md": "15cbc9134648fb0ecfc9789b27d6772203cbd683fa83372b85457701649cc57c",
+    "placement/study.py": "2d8c192e1f7648c887ab16cad55d6c2ed90c045c5556a13473512b9dd4c22d3b",
+    "pre-encoding/study.py": "57fe7f76ea9a15e3f951b38b1c7963475f97d9b0bf6761146c8ca27215c6af1f"
+  },
+  "archive": "ec858b5efbc0e6d0f02dd6121613bd2e343b143ef5fd761185e0a4996173f848",
+  "weight_sha256": "d35175181b329130531ef2ef9b5a021beea81328cc4a6ed7d73d4559f68ec554",
+  "selected": "centroid_rank",
+  "development": {
+    "paired_smooth_rank": {
+      "kind": "mlp64",
+      "rate": 0.003,
+      "epochs": 28,
+      "accuracy": [
+        0.8133333333333334,
+        0.5685714285714285,
+        0.48000000000000004,
+        0.29714285714285715,
+        0.32809523809523805
+      ]
+    },
+    "paired_extent_range": {
+      "kind": "mlp64",
+      "rate": 0.003,
+      "epochs": 28,
+      "accuracy": [
+        0.885238095238095,
+        0.8066666666666668,
+        0.4652380952380953,
+        0.4228571428571428,
+        0.4704761904761905
+      ]
+    },
+    "paired_centroid_rank": {
+      "kind": "mlp64",
+      "rate": 0.003,
+      "epochs": 28,
+      "accuracy": [
+        0.8719047619047618,
+        0.8114285714285715,
+        0.4466666666666666,
+        0.4257142857142857,
+        0.4776190476190476
+      ]
+    },
+    "joint_smooth_rank": {
+      "kind": "mlp64",
+      "rate": 0.003,
+      "epochs": 28,
+      "accuracy": [
+        0.8314285714285714,
+        0.5261904761904762,
+        0.44428571428571423,
+        0.289047619047619,
+        0.31476190476190474
+      ]
+    },
+    "joint_extent_range": {
+      "kind": "mlp64",
+      "rate": 0.003,
+      "epochs": 28,
+      "accuracy": [
+        0.8923809523809524,
+        0.8099999999999999,
+        0.4704761904761905,
+        0.4071428571428571,
+        0.4828571428571429
+      ]
+    },
+    "joint_centroid_rank": {
+      "kind": "mlp64",
+      "rate": 0.003,
+      "epochs": 28,
+      "accuracy": [
+        0.8804761904761905,
+        0.8152380952380952,
+        0.4480952380952381,
+        0.4276190476190476,
+        0.4557142857142857
+      ]
+    }
+  },
+  "elapsed": 69.01157129200874,
+  "peak_rss_bytes": 267124736
+}

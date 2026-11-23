@@ -1,0 +1,102 @@
+{
+  "accuracy": {
+    "paired_smooth_rank": {
+      "clean": 0.8474285714285715,
+      "placement": 0.6117142857142857,
+      "coarse_mask": 0.4579999999999999,
+      "joint_stripe": 0.264,
+      "joint_patch": 0.3142857142857143
+    },
+    "paired_extent_range": {
+      "clean": 0.8425714285714285,
+      "placement": 0.7882857142857143,
+      "coarse_mask": 0.42314285714285715,
+      "joint_stripe": 0.4114285714285715,
+      "joint_patch": 0.4508571428571428
+    },
+    "paired_centroid_rank": {
+      "clean": 0.9074285714285715,
+      "placement": 0.8497142857142856,
+      "coarse_mask": 0.4428571428571429,
+      "joint_stripe": 0.42200000000000004,
+      "joint_patch": 0.48
+    },
+    "joint_smooth_rank": {
+      "clean": 0.872857142857143,
+      "placement": 0.5405714285714286,
+      "coarse_mask": 0.4008571428571428,
+      "joint_stripe": 0.2691428571428572,
+      "joint_patch": 0.30314285714285716
+    },
+    "joint_extent_range": {
+      "clean": 0.8491428571428571,
+      "placement": 0.7705714285714287,
+      "coarse_mask": 0.41600000000000004,
+      "joint_stripe": 0.42228571428571426,
+      "joint_patch": 0.4465714285714286
+    },
+    "joint_centroid_rank": {
+      "clean": 0.9088571428571427,
+      "placement": 0.8388571428571427,
+      "coarse_mask": 0.44371428571428567,
+      "joint_stripe": 0.41428571428571426,
+      "joint_patch": 0.4625714285714285
+    }
+  },
+  "primary": [
+    -0.007714285714285785,
+    -0.021714285714285686,
+    0.008571428571428563
+  ],
+  "clean": [
+    0.0014285714285714123,
+    -0.0040000000000000036,
+    0.007142857142857129
+  ],
+  "paired_by_condition": {
+    "clean": [
+      0.0014285714285714123,
+      -0.0040000000000000036,
+      0.007142857142857129
+    ],
+    "placement": [
+      -0.010857142857142866,
+      -0.02400000000000002,
+      0.0
+    ],
+    "coarse_mask": [
+      0.0008571428571428674,
+      -0.018285714285714266,
+      0.020285714285714285
+    ],
+    "joint_stripe": [
+      -0.007714285714285718,
+      -0.021714285714285714,
+      0.008571428571428568
+    ],
+    "joint_patch": [
+      -0.017428571428571422,
+      -0.03742857142857141,
+      0.002857142857142858
+    ]
+  },
+  "efficacy": false,
+  "retention": true,
+  "hashes": {
+    "placement/factorial/run.py": "c1b03261091c7621303ae461789e26bea868f048bdfa4b46338928fafe664bf6",
+    "placement/factorial/PROTOCOL.md": "15cbc9134648fb0ecfc9789b27d6772203cbd683fa83372b85457701649cc57c",
+    "placement/study.py": "2d8c192e1f7648c887ab16cad55d6c2ed90c045c5556a13473512b9dd4c22d3b",
+    "pre-encoding/study.py": "57fe7f76ea9a15e3f951b38b1c7963475f97d9b0bf6761146c8ca27215c6af1f"
+  },
+  "selected": "centroid_rank",
+  "ledger_sha256": "06d2d9c95fd7088274cc41ff603d4834b4e28e4729e7650457d4dcf7775f402b",
+  "count_median": {
+    "clean": 121.0,
+    "placement": 121.0,
+    "coarse_mask": 82.0,
+    "joint_stripe": 69.0,
+    "joint_patch": 74.0
+  },
+  "elapsed": 12.301433957996778,
+  "peak_rss_bytes": 132038656
+}

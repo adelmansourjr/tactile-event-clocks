@@ -6,6 +6,8 @@ The rank clock preserved every prediction under a strictly monotone remapping of
 
 **Raw-pressure follow-up.** Resampling before generating spikes exposes an acquisition failure hidden by post-spike retiming. At coarse acquisition, a compact magnitude-based baseline recovered 67.23% accuracy from 121 median events versus 11.86% from eight median events under the percentile rule. At exactly matched counts, send-on-delta missed its worst-shift improvement gate. [Two frozen experiments and reproducible results](pre-encoding/README.md)
 
+**Matched-event placement follow-up.** At identical event identities, feature width and classifier capacity, centroid alignment raised placement accuracy from 77.06% to 83.57% against the strongest tested bounding-extent model using the same rank clock. The stronger combined perturbation remained difficult, including after matched-dose joint augmentation. [Placement results, exact analysis and training-schedule test](placement/README.md)
+
 ## Real recordings and fixed comparisons
 
 The [STEMNIST dataset](https://doi.org/10.5281/zenodo.19469535) contains 7,700 recorded tactile traces of 35 characters by 34 participants. Train, validation and test partitions used 18, 6 and 10 disjoint writers, with 4,200, 1,575 and 1,925 traces. A fixed linear ridge classifier was independently trained for each representation, with the same regularization grid and validation procedure. The published spike stream already reflects the authors' offline adaptive threshold. The project starts from that stream, so the experiments measure representation and readout.
