@@ -1,0 +1,26 @@
+{
+  "rows": 1925,
+  "prediction_invariance": true,
+  "paired_sensitivity": {
+    "clean": {
+      "writers_improved": 2,
+      "writers_tied": 2,
+      "sign_flip_two_sided": 0.6015625
+    },
+    "warp": {
+      "writers_improved": 10,
+      "writers_tied": 0,
+      "sign_flip_two_sided": 0.001953125
+    },
+    "loss": {
+      "writers_improved": 0,
+      "writers_tied": 0,
+      "sign_flip_two_sided": 0.001953125
+    },
+    "merge": {
+      "writers_improved": 10,
+      "writers_tied": 0,
+      "sign_flip_two_sided": 0.001953125
+    }
+  }
+}
