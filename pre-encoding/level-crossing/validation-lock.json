@@ -1,0 +1,84 @@
+{
+  "files": {
+    "level-crossing/PROTOCOL.md": "6d36e6469834d4335400c0a52672ad828f6cdc017976bdff130103888c46d940",
+    "level-crossing/events.c": "7ccfa34c747a9e381c2e0eacdb40475f4c835c33487314bf103efc1e3617dd58",
+    "level-crossing/study_crossing.py": "5450270ca41fb45557be0a028fd703bb3dab47ff814ff1346b1ef2d0d8719166",
+    "study.py": "57fe7f76ea9a15e3f951b38b1c7963475f97d9b0bf6761146c8ca27215c6af1f"
+  },
+  "dataset": "ec858b5efbc0e6d0f02dd6121613bd2e343b143ef5fd761185e0a4996173f848",
+  "weights": "feea23896031a1bb49df730c4158f68719ad68f9782f9551c7be29c1b5f20a9d",
+  "scores": {
+    "nominal_range": {
+      "worst": 0.6476190476190476,
+      "overall": 0.674047619047619,
+      "lambda": 0.3,
+      "conditions": [
+        0.6914285714285714,
+        0.6833333333333332,
+        0.6738095238095237,
+        0.6476190476190476
+      ]
+    },
+    "nominal_rank": {
+      "worst": 0.6019047619047618,
+      "overall": 0.6421428571428571,
+      "lambda": 3.0,
+      "conditions": [
+        0.6538095238095237,
+        0.6728571428571429,
+        0.64,
+        0.6019047619047618
+      ]
+    },
+    "derivative_range": {
+      "worst": 0.6085714285714287,
+      "overall": 0.6401190476190476,
+      "lambda": 3.0,
+      "conditions": [
+        0.6519047619047619,
+        0.6528571428571429,
+        0.6471428571428571,
+        0.6085714285714287
+      ]
+    },
+    "derivative_rank": {
+      "worst": 0.589047619047619,
+      "overall": 0.6266666666666667,
+      "lambda": 3.0,
+      "conditions": [
+        0.6423809523809524,
+        0.6352380952380953,
+        0.64,
+        0.589047619047619
+      ]
+    },
+    "level_range": {
+      "worst": 0.641904761904762,
+      "overall": 0.6697619047619048,
+      "lambda": 0.03,
+      "conditions": [
+        0.6823809523809524,
+        0.6723809523809523,
+        0.6823809523809524,
+        0.641904761904762
+      ]
+    },
+    "level_rank": {
+      "worst": 0.58,
+      "overall": 0.6207142857142857,
+      "lambda": 3.0,
+      "conditions": [
+        0.6347619047619047,
+        0.6333333333333333,
+        0.6347619047619047,
+        0.58
+      ]
+    }
+  },
+  "chosen": {
+    "nominal": "nominal_range",
+    "derivative": "derivative_range",
+    "level": "level_range"
+  },
+  "peak_rss_mb": 473.956352
+}
